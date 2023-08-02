@@ -50,13 +50,13 @@ As an IT Support professional, you may be asked to overclock a CPU. There are st
 
 4. Follow the manufacturer’s instructions for overclocking the CPU: Using the detailed instructions from the manufacturer (see below for links to Intel and AMD’s guides): 
 
- 1. Use benchmarking software to establish a baseline for the normal performance of the computer.
+ - Use benchmarking software to establish a baseline for the normal performance of the computer.
 
- 2. Set each CPU core multiplier to the value of the lowest multiplier using either the manufacturer’s overclocking software (recommended) or the BIOS. Then reboot the computer. 
+ - Set each CPU core multiplier to the value of the lowest multiplier using either the manufacturer’s overclocking software (recommended) or the BIOS. Then reboot the computer. 
 
- 3. Increase each CPU core multiplier by 1 to increase the CPU frequency. 
+ - Increase each CPU core multiplier by 1 to increase the CPU frequency. 
 
- 4. Test each increase for stability using the testing utility provided by the manufacturer. 
+ - Test each increase for stability using the testing utility provided by the manufacturer. 
 
     - Fix any problems flagged by the testing tools, especially temperature alerts. If the system becomes too unstable, roll back to the last frequency that produced a stable performance and stop overclocking the CPU.
 
@@ -66,19 +66,12 @@ As an IT Support professional, you may be asked to overclock a CPU. There are st
 
 5. If stable, reboot the computer before attempting the next increase. 
 
-Resources for more information
+## Resources for more information
 
-    Intel: Overclocking: Maximize Your Performance
+- Intel: [Overclocking: Maximize Your Performance](https://www.intel.com/content/www/us/en/gaming/overclocking-intel-processors.html) - Intel’s all-inclusive guide to overclocking CPU, RAM, and motherboard. The site also provides utility tools for fine-tuning overclock performance and lists Intel CPU models that support overclocking.
 
- - Intel’s all-inclusive guide to overclocking CPU, RAM, and motherboard. The site also provides utility tools for fine-tuning overclock performance and lists Intel CPU models that support overclocking.
+- AMD: [AMD Ryzen™ Master Utility for Overclocking Control](https://www.amd.com/en/technologies/ryzen-master) - AMD’s toolkit for overclocking Ryzen processors. Note that overclocking support for non-Ryzen models is no longer recommended by AMD.
 
-AMD: AMD Ryzen™ Master Utility for Overclocking Control
+- AMD: [Ryzen™ Processor Overclocked Memory Compatibility List](https://www.amd.com/en/processors/ryzen-compatible-memory) - List of AMD Ryzen CPU models that support overclocking.
 
- - AMD’s toolkit for overclocking Ryzen processors. Note that overclocking support for non-Ryzen models is no longer recommended by AMD.
-
-AMD: Ryzen™ Processor Overclocked Memory Compatibility List
-
- - List of AMD Ryzen CPU models that support overclocking.
-
-AMD: How to Overclock Your AMD Ryzen CPU
- - Instructions for overclocking AMD Ryzen CPUs from PC Magazine.
+- AMD: [How to Overclock Your AMD Ryzen CPU](https://www.pcmag.com/how-to/how-to-overclock-your-amd-ryzen-cpu) - Instructions for overclocking AMD Ryzen CPUs from PC Magazine.
