@@ -335,3 +335,134 @@ For more information on these topics, please visit:
 - [Plug, socket & voltage by country](https://www.worldstandards.eu/electricity/plug-voltage-by-country/) - List of countries around the world and their voltage standards for common wall sockets and plug types.
 
 - [How to Diagnose and Replace a Failed PC Power Supply](https://www.wikihow.com/Diagnose-and-Replace-a-Failed-PC-Power-Supply) - Step-by-step illustrated instructions on how to diagnose a power supply failure and replace it on a desktop PC.
+
+---
+
+# Supplemental Readings for Batteries and Charging Systems
+
+Check out these links for more information:
+
+You can learn about [Inductive Charging](https://en.wikipedia.org/wiki/Inductive_charging).
+
+Read more about batteries and charge cycles for [Windows](https://docs.microsoft.com/windows-hardware/design/device-experiences/powercfg-command-line-options#option_batteryreport) or [Macs](https://support.apple.com/HT201585). You can also check out: [Safe handling of lithium-ion batteries](https://www.osha.gov/sites/default/files/publications/shib011819.pdf).
+
+Finally, learn how to maximize your batteries for [iOS](https://www.apple.com/batteries/maximizing-performance/) 
+or [Android](https://support.google.com/android/answer/7664358).
+
+---
+
+# Supplemental Reading on Connector Types
+
+## Connector Types
+
+A computer has many physical ports or connectors. You can use these connectors to connect devices that add functionality to your computing, such as a keyboard, mouse, or monitor. These external devices are called peripherals. IT often works with and troubleshoots these peripherals, so it is helpful to understand the types of connectors. This reading will cover different types of connectors and their uses.  
+
+# USB Connectors
+## USB 2.0, 3.0 & 3.1
+
+USB connectors transfer data and power to devices connected to a computer. USB connectors are the most popular connectors for all types of peripherals.
+
+![IT-Support](gallery/IT-Support-Cert-Connector-Types-2-.png)
+
+There are three generations of USB type A connectors in use today: USB 2.0, 3.0, and 3.1. Here are the differences between the three generations:
+
+- USB 2.0: Black port on the computer, 480 Mbps transfer speed
+- USB 3.0: Blue port on computer, 5 Gbps transfer speed
+- USB 3.1: Teal port on the computer, 10 Gbps transfer speed
+
+USB ports are backwards compatible, meaning a USB port can connect any of the three generations of USB type A connectors. The connected cable will determine the speed of data transfer. Connecting a USB 3 to a USB 2 port will result in 480 megabits (Mbps) per second of speed.
+
+## Micro USB, USB-C & Lightning Port
+
+Micro USB, USB-C, USB4 (Thunderbolt), and Lightning Ports are smaller connectors that carry more power than older USB connectors and have faster data transfer speeds. These connectors are used for devices like smartphones, laptops, and tablets.
+
+![Micro USB, USB-C, USB4 and Lightning Port Connectors](gallery/Google__Connectors-Image-2---Micro-USB-.png)
+
+- **Micro USB** is a small USB port found on many non-Apple cellphones, tablets, and other portable devices. 
+
+- **USB-C** is the newest reversible connector with either end having the same build. USB-C cables replace traditional USB connectors since they can carry significantly more power and transfer data at 20 Gbps.  
+
+- **USB4** uses Thunderbolt 3 protocol and USB-C cables to transfer data at speeds of 40 Gbps and provide power as well. 
+
+- **Lightning Port** is a connector exclusive to Apple that is similar to USB-C. It is used for charging and connecting devices to computers, external monitors, cameras and other peripherals.
+
+## Communication Connectors
+
+Different cable connectors are used to share information between devices and connect to the internet. IT professionals maintain network systems that use different types of communication connectors. 
+POTS, DSL Cable Internet and Fiber-optic cable connectors
+
+![communication connectors](gallery/Google__Connectors-Image-3---Communication-Connectors.png)
+
+- **Plain Old Telephone Service (POTS)** refers to cables transmitting voice through twisted copper pair wires. Landline telephones, dial-up internet, and alarm systems use POTS. The RJ-11 (Register Jack 11) connector is used for POTS.
+
+- **Digital Subscriber Line (DSL)** provides access to high-speed networks or the internet through telephone lines and a modem. The RJ-45 connects a computer to network elements and is mostly used with ethernet cables. 
+
+- **Cable Internet** uses a cable TV infrastructure and a modem to provide high-speed internet access to users. An F type connector is commonly used with cable modems.. 
+
+- **Fiber-optic cables** contain strands of glass fibers inside an insulated casing that send data long-distance and allow for higher-bandwidth communication. The major internet providers use fiber-optic cables for high-speed internet service. 
+
+## Device Connectors
+
+IT professionals will encounter legacy devices that still use older connectors such as DB89 and Molex.
+
+![DB89 and Molex device connectors](gallery/Google__Connectors-Image-4---Device-Connectors-.png)
+
+**DB89** connectors are used for older peripherals like keyboards, mice, and joysticks. An IT professional may still encounter a DB89 connector for external tools a computer uses and should recognize the cable to connect to the appropriate port.
+
+**Molex** connectors provide power to drives or devices inside the computer. Molex connectors are used for connecting a hard drive, disc drive (CD-ROM, DVD, Blu-ray), or a video card.
+
+## Punch Down Blocks
+
+A punch down block is a terminal strip used to connect telephone or data lines. Punch down blocks are a quick and easy way to connect wiring. IT professionals use punch down blocks to change a wire or make a new connection for a telephone system or Local Area Network (LAN).
+
+![Punch Down Blocks used to connect telephone or data lines](gallery/Google__Connectors-Image-5---Punch-Down-Blocks-.png)
+
+These are the most common cables and connectors. As technology advances, these cables and connectors will also change. 
+
+## Key Takeaways
+
+IT professionals need to be familiar with cables and connectors used to attach peripheral devices to computers. 
+
+- USB connectors are the most common connector type and they transfer data and power to devices connected to a computer. 
+
+- Communication connectors, such as RJ-45 and fiber optic cables, connect devices to the internet and one another.
+
+- IT professionals may encounter legacy devices that use older connectors such as DB89 and Molex.
+
+- Punch down blocks are terminal strips used to connect telephone or data lines.
+
+---
+
+# Supplemental Reading for Projectors
+
+## Projectors
+
+Projectors are display devices for when you need to share information with people in the same location! Most projectors can be used just like any other display on a computer, and with a few differences, can be troubleshot just like any other display device. For example, projectors can have dead or stuck pixels, and can acquire image burn-in, just like other types of displays.
+
+## Connectors and Cables
+
+You will connect a computer to a projector using a display cable like [VGA](https://en.wikipedia.org/wiki/VGA_connector), [DVI](https://en.wikipedia.org/wiki/Digital_Visual_Interface#Connector), [HDMI](https://en.wikipedia.org/wiki/HDMI#Connectors), or [DisplayPort](https://en.wikipedia.org/wiki/DisplayPort#Full-size_DisplayPort_connector). When you do this, the computer's operating system will detect that a new display has been added. Depending on what your computer's video adapter supports, this new display can be extended or mirrored just like if you had added a second monitor!
+
+- [Windows - How to connect to a projector or PC](https://support.microsoft.com/help/27911/windows-10-connect-to-a-projector-or-pc)
+
+- [MacOS - How to connect a display, TV or projector to Mac](https://support.apple.com/guide/mac-help/mchl5fdd37ce/mac)
+
+- [Ubuntu - How to connect another monitor to your computer](https://help.ubuntu.com/stable/ubuntu-help/display-dual-monitors.html)
+
+A lot of times, display issues with projectors come down to the connectors and the cables that you are using. Because people frequently connect and disconnect from projectors, the cables and connectors can become worn out or damaged. Always consider this early in your troubleshooting if the projection display flickers or disappears.
+
+## Device Drivers
+
+Just like other display devices, if your computer does not correctly recognize the display resolution of the projector it may default to a very low-resolution **VGA mode** like 640x480 or 1024x768. If this happens, your computer may need a device driver for your projector. Take a look at the support website for your projector's manufacturer!
+
+## Lighting
+
+Projectors often rely on expensive, hot, very bright **incandescent** bulbs, or **lamps**. If a projector gets too hot for the lamp to safely operate, the projector will shut down. If the lamp burns out, the projector will either not work or will shut itself down. It is increasingly common for projectors to rely on LED lights, rather than incandescent lamps. These LED lights have far fewer issues with overheating, and have much longer lifespans than incandescent lamps.
+
+## Calibration
+
+Sometimes, like when a projector is first installed, reset, or moved, you will need to **calibrate** the projector image to account for the distance and angle that the projector is installed at. If the image is skewed or [keystoned](https://en.wikipedia.org/wiki/Keystone_effect), you might need to recalibrate the projector geometry. Calibrating the image involves focusing the image, and making adjustments to the image to make it square and aligned with the projection surface. Every projector is a little different, so refer to the vendor documentation to complete this task!
+
+---
+
+
