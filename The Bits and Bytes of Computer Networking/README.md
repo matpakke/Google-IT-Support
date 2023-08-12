@@ -11,14 +11,53 @@ In addition to the five layer model we are working with, it’s important to not
 
 # The TCP/IP Five-Layer Network Model
 
-|              | Header 1        | Header 2                       || Header 3                       ||
-|              | Subheader 1     | Subheader 2.1  | Subheader 2.2  | Subheader 3.1  | Subheader 3.2  |
-|==============|-----------------|----------------|----------------|----------------|----------------|
-| Row Header 1 | 3row, 3col span                                 ||| Colspan only                   ||
-| Row Header 2 |       ^                                         ||| Rowspan only   | Cell           |
-| Row Header 3 |       ^                                         |||       ^        | Cell           |
-| Row Header 4 |  Row            |  Each cell     |:   Centered   :| Right-aligned :|: Left-aligned  |
-:              :  with multiple  :  has room for  :   multi-line   :    multi-line  :  multi-line    :
-:              :  lines.         :  more text.    :      text.     :         text.  :  text.         :
-|--------------|-----------------|----------------|----------------|----------------|----------------|
-[Caption Text]
+<table>
+  <tr>
+    <th rowspan="4">Layer</th>
+    <th rowspan="4">Protocol data unit (PDU)</th>
+    <th rowspan="4">Function</th>
+  </tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  <tr>
+    <td>Layer 1</td>
+    <td>PDU 1</td>
+    <td>Function 1</td>
+  </tr>
+  <tr>
+    <td>Layer 2</td>
+    <td>PDU 2</td>
+    <td>Function 2</td>
+  </tr>
+  <tr>
+    <td>Layer 3</td>
+    <td>PDU 3</td>
+    <td>Function 3</td>
+  </tr>
+  <tr>
+    <td>Layer 4</td>
+    <td>PDU 4</td>
+    <td>Function 4</td>
+  </tr>
+  <tr>
+    <td>Layer 5</td>
+    <td>PDU 5</td>
+    <td>Function 5</td>
+  </tr>
+  <tr>
+    <td>Layer 6</td>
+    <td>PDU 6</td>
+    <td>Function 6</td>
+  </tr>
+  <tr>
+    <td>Layer 7</td>
+    <td>PDU 7</td>
+    <td>Function 7</td>
+  </tr>
+  <tr>
+    <td>Layer 8</td>
+    <td>PDU 8</td>
+    <td>Function 8</td>
+  </tr>
+</table>
