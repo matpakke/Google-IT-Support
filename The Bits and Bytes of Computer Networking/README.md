@@ -14,26 +14,10 @@ In addition to the five layer model we are working with, it’s important to not
 <!DOCTYPE html>
 <html>
 <head>
-<style>
-  table {
-    border-collapse: collapse;
-    width: 100%;
-  }
-
-  th, td {
-    border: 1px solid black;
-    padding: 8px;
-    text-align: left;
-  }
-
-  th {
-    background-color: #f2f2f2;
-  }
-</style>
 </head>
 <body>
 
-<table>
+<table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%;">
   <tr>
     <th>Layer</th>
     <th>Protocol data unit (PDU)</th>
