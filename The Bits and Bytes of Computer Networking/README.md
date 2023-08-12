@@ -11,7 +11,70 @@ In addition to the five layer model we are working with, it’s important to not
 
 # The TCP/IP Five-Layer Network Model
 
-<table style="margin: 1em auto 1em auto;">
+<style>
+    element {
+  margin: 1em auto 1em auto;
+}
+  @media screen
+.wikitable {
+  background-color: #f8f9fa;
+  color: #202122;
+  margin: 1em 0;
+  border: 1px solid #a2a9b1;
+  border-collapse: collapse;
+}
+  @media screen
+table {
+  font-size: 100%;
+}
+  @media screen
+.vector-body {
+  font-size: 0.875em;
+  font-size: calc(1em * 0.875);
+  line-height: 1.6;
+}
+  @media screen
+.vector-feature-zebra-design-disabled .mw-body, .vector-feature-zebra-design-disabled .parsoid-body {
+  direction: ltr;
+}
+  @media screen
+.vector-feature-zebra-design-disabled body {
+  color: #202122;
+}
+  @media screen
+html, body {
+  font-family: sans-serif;
+}
+  @media screen
+html {
+  font-size: 100%;
+}
+Overlay Grid
+Grid Display Settings
+margin
+border
+padding
+958.4×341.6
+960×343.2
+static
+  box-sizing
+  border-box
+  display
+  table
+  float
+  none
+  line-height
+  22.4px
+  position
+  static
+  z-index
+  auto
+
+</style>
+
+<div class="wikitable">
+
+<table class="wikitable" style="margin: 1em auto 1em auto;">
   <caption>OSI model </caption>
   <tbody>
     <tr>
@@ -26,7 +89,7 @@ In addition to the five layer model we are working with, it’s important to not
     </tr>
     <tr>
       <th rowspan="4">Host <br>layers </th>
-      <td background:#d8ec9b;>7 </td>
+      <td style="background:#d8ec9b;">7 </td>
       <td style="background:#d8ec9b;">
         <a href="/wiki/Application_layer" title="Application layer">Application</a>
       </td>
@@ -95,3 +158,5 @@ In addition to the five layer model we are working with, it’s important to not
     </tr>
   </tbody>
 </table>
+
+</div>
