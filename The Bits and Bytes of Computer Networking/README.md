@@ -11,7 +11,7 @@ In addition to the five layer model we are working with, it’s important to not
 
 # The TCP/IP Five-Layer Network Model
 
-<table class="wikitable" style="margin: 1em auto 1em auto;">
+<table style="margin: 1em auto 1em auto;">
   <caption>OSI model </caption>
   <tbody>
     <tr>
@@ -26,7 +26,7 @@ In addition to the five layer model we are working with, it’s important to not
     </tr>
     <tr>
       <th rowspan="4">Host <br>layers </th>
-      <td style="background:#d8ec9b;">7 </td>
+      <td background:#d8ec9b;>7 </td>
       <td style="background:#d8ec9b;">
         <a href="/wiki/Application_layer" title="Application layer">Application</a>
       </td>
