@@ -11,65 +11,27 @@ In addition to the five layer model we are working with, it’s important to not
 
 # The TCP/IP Five-Layer Network Model
 
-<table>
-  <tr>
-    <th rowspan="3">Layer</th>
-    <th rowspan="1">Protocol data unit (PDU)</th>
-    <th rowspan="1">Function</th>
-  </tr>
-  <tr>
-    <th rowspan="1">Host layers</th>
-  </tr>
-  <tr></tr>
-  <tr></tr>
-  <tr>
-    <td>Layer 1</td>
-    <td>PDU 1</td>
-    <td>Function 1</td>
-  </tr>
-  <tr>
-    <td>Layer 2</td>
-    <td>PDU 2</td>
-    <td>Function 2</td>
-  </tr>
-  <tr>
-    <td>Layer 3</td>
-    <td>PDU 3</td>
-    <td>Function 3</td>
-  </tr>
-  <tr>
-    <td>Layer 4</td>
-    <td>PDU 4</td>
-    <td>Function 4</td>
-  </tr>
-  <tr>
-    <td>Layer 5</td>
-    <td>PDU 5</td>
-    <td>Function 5</td>
-  </tr>
-  <tr>
-    <td>Layer 6</td>
-    <td>PDU 6</td>
-    <td>Function 6</td>
-  </tr>
-  <tr>
-    <td>Layer 7</td>
-    <td>PDU 7</td>
-    <td>Function 7</td>
-  </tr>
-  <tr>
-    <td>Layer 8</td>
-    <td>PDU 8</td>
-    <td>Function 8</td>
-  </tr>
-</table>
-
+<!DOCTYPE html>
+<html>
+<head>
 <style>
-  .merged-cell {
-    vertical-align: middle;
-    text-align: center;
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+
+  th {
+    background-color: #f2f2f2;
   }
 </style>
+</head>
+<body>
 
 <table>
   <tr>
@@ -78,37 +40,48 @@ In addition to the five layer model we are working with, it’s important to not
     <th>Function</th>
   </tr>
   <tr>
-    <td rowspan="4" class="merged-cell">Common</td>
-    <td>PDU 1</td>
-    <td>Function 1</td>
+    <td rowspan="3">Host layers</td>
+    <td>7</td>
+    <td>Application</td>
+    <td>Data</td>
+    <td>High-level protocols such as for resource sharing or remote file access, e.g. HTTP.</td>
   </tr>
   <tr>
-    <td>PDU 2</td>
-    <td>Function 2</td>
+    <td>6</td>
+    <td>Presentation</td>
+    <td>Translation of data between a networking service and an application; including character encoding, data compression and encryption/decryption</td>
   </tr>
   <tr>
-    <td>PDU 3</td>
-    <td>Function 3</td>
+    <td>5</td>
+    <td>Session</td>
+    <td>Managing communication sessions, i.e., continuous exchange of information in the form of multiple back-and-forth transmissions between two nodes</td>
   </tr>
   <tr>
-    <td>PDU 4</td>
-    <td>Function 4</td>
+    <td rowspan="3">Media layers</td>
+    <td>4</td>
+    <td>Transport</td>
+    <td>Segment, Datagram</td>
+    <td>Reliable transmission of data segments between points on a network, including segmentation, acknowledgement and multiplexing</td>
   </tr>
   <tr>
-    <td rowspan="4" class="merged-cell">Specific</td>
-    <td>PDU 5</td>
-    <td>Function 5</td>
+    <td>3</td>
+    <td>Network</td>
+    <td>Packet</td>
+    <td>Structuring and managing a multi-node network, including addressing, routing and traffic control</td>
   </tr>
   <tr>
-    <td>PDU 6</td>
-    <td>Function 6</td>
+    <td>2</td>
+    <td>Data link</td>
+    <td>Frame</td>
+    <td>Transmission of data frames between two nodes connected by a physical layer</td>
   </tr>
   <tr>
-    <td>PDU 7</td>
-    <td>Function 7</td>
-  </tr>
-  <tr>
-    <td>PDU 8</td>
-    <td>Function 8</td>
+    <td>1</td>
+    <td>Physical</td>
+    <td>Bit, Symbol</td>
+    <td>Transmission and reception of raw bit streams over a physical medium</td>
   </tr>
 </table>
+
+</body>
+</html>
