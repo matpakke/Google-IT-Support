@@ -13,11 +13,13 @@ In addition to the five layer model we are working with, it’s important to not
 
 <table>
   <tr>
-    <th rowspan="4">Layer</th>
-    <th rowspan="4">Protocol data unit (PDU)</th>
-    <th rowspan="4">Function</th>
+    <th rowspan="3">Layer</th>
+    <th rowspan="1">Protocol data unit (PDU)</th>
+    <th rowspan="1">Function</th>
   </tr>
-  <tr></tr>
+  <tr>
+    <th rowspan="1">Host layers</th>
+  </tr>
   <tr></tr>
   <tr></tr>
   <tr>
@@ -57,6 +59,55 @@ In addition to the five layer model we are working with, it’s important to not
   </tr>
   <tr>
     <td>Layer 8</td>
+    <td>PDU 8</td>
+    <td>Function 8</td>
+  </tr>
+</table>
+
+<style>
+  .merged-cell {
+    vertical-align: middle;
+    text-align: center;
+  }
+</style>
+
+<table>
+  <tr>
+    <th>Layer</th>
+    <th>Protocol data unit (PDU)</th>
+    <th>Function</th>
+  </tr>
+  <tr>
+    <td rowspan="4" class="merged-cell">Common</td>
+    <td>PDU 1</td>
+    <td>Function 1</td>
+  </tr>
+  <tr>
+    <td>PDU 2</td>
+    <td>Function 2</td>
+  </tr>
+  <tr>
+    <td>PDU 3</td>
+    <td>Function 3</td>
+  </tr>
+  <tr>
+    <td>PDU 4</td>
+    <td>Function 4</td>
+  </tr>
+  <tr>
+    <td rowspan="4" class="merged-cell">Specific</td>
+    <td>PDU 5</td>
+    <td>Function 5</td>
+  </tr>
+  <tr>
+    <td>PDU 6</td>
+    <td>Function 6</td>
+  </tr>
+  <tr>
+    <td>PDU 7</td>
+    <td>Function 7</td>
+  </tr>
+  <tr>
     <td>PDU 8</td>
     <td>Function 8</td>
   </tr>
